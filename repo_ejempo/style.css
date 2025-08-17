@@ -1,0 +1,87 @@
+/* Esto es un comentario en CSS */
+body {
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-padding: 2000px,10px,30px,5px;
+
+}
+
+.tipo1 {
+    display: flex;
+    align-items: center;
+    color: #ee8d0f;
+    text-justify: auto;
+    text-align: center;
+    text-shadow: #ee8d0f;
+    font: #000;
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: cover;
+    justify-content: center;
+    gap: 15px;
+
+}
+.caja {
+    font: 100;
+    color: #ee8d0f;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+    display: flexbox;
+}
+:hover.caja{
+    color: hsl(66, 82%, 56%);
+    /* font-size: 31px; */
+}
+:hover.tipo1{
+    color:hsl(66, 82%, 56%);
+    /* font-size: 71px; */
+}
+/* la a es la variable para todos los links */
+a {
+    color:rgb(19, 124, 245);
+}
+
+.listas{
+    font: 100;
+    font-size: large;
+    color:white;
+    position: relative;
+    top: 30px;
+    left: 900px;
+}
+
+table{
+    color: white;
+    text-decoration-color: white;
+    /* position: relative; */
+    /* top: 30px;
+    left: 300px; */
+}
+.titulotabla{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 850px;
+}
+.formulario{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.tituloformulario{
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+button{
+    border-radius: 10px;
+}
+.tipo1.logo{
+    width: 50px;
+    height: auto;
+}

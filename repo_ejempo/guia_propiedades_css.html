@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Propiedades CSS</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1 { text-align: center; }
+        h2 { color: #2c3e50; margin-top: 30px; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+        .ejemplo { border: 1px solid #ccc; padding: 10px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Guía de Propiedades CSS</h1>
+
+    <h2>🎨 Colores y Fondos</h2>
+    <!-- 
+color: red;                 /* Color del texto */
+background-color: #f0f0f0;  /* Color de fondo */
+background-image: url('imagen.jpg'); /* Imagen de fondo */
+background-repeat: no-repeat;        /* Repetir o no la imagen */
+background-size: cover;              /* Ajustar la imagen al contenedor */
+background-position: center;         /* Posición de la imagen */
+opacity: 0.8;              /* Transparencia (0 a 1) */ -->
+
+    <div class="ejemplo" style="color: red;">color: red;</div>
+    <div class="ejemplo" style="background-color: #f0f0f0;">background-color: #f0f0f0;</div>
+    <div class="ejemplo" style="background-image: url('https://via.placeholder.com/150'); background-repeat: no-repeat;">background-image + background-repeat</div>
+    <div class="ejemplo" style="opacity: 0.5;">opacity: 0.5;</div>
+
+    <h2>✍️ Texto y Tipografía</h2>
+    <!-- 
+font-size: 18px;           /* Tamaño de fuente */
+font-family: Arial, sans-serif; /* Tipo de letra */
+font-weight: bold;         /* Grosor (normal, bold, lighter, 100–900) */
+font-style: italic;        /* Cursiva */
+text-align: center;        /* Alineación del texto (left, center, right) */
+text-decoration: underline;/* Subrayado */
+text-transform: uppercase; /* Mayúsculas, minúsculas, capitalizar */
+letter-spacing: 2px;       /* Espaciado entre letras */
+line-height: 1.5;          /* Altura de línea */ -->
+
+    <div class="ejemplo" style="font-size: 24px;">font-size: 24px;</div>
+    <div class="ejemplo" style="font-family: 'Courier New', monospace;">font-family: Courier New;</div>
+    <div class="ejemplo" style="font-weight: bold;">font-weight: bold;</div>
+    <div class="ejemplo" style="font-style: italic;">font-style: italic;</div>
+    <div class="ejemplo" style="text-align: center;">text-align: center;</div>
+    <div class="ejemplo" style="text-decoration: underline;">text-decoration: underline;</div>
+    <div class="ejemplo" style="text-transform: uppercase;">text-transform: uppercase;</div>
+    <div class="ejemplo" style="letter-spacing: 5px;">letter-spacing: 5px;</div>
+    <div class="ejemplo" style="line-height: 2;">line-height: 2;</div>
+
+    <h2>📦 Espaciado y Tamaño</h2>
+    <!-- 
+margin: 20px;              /* Margen exterior */
+margin-top: 10px;
+margin-right: 5px;
+margin-bottom: 10px;
+margin-left: 5px;
+
+padding: 15px;             /* Relleno interior */
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+
+width: 200px;              /* Ancho */
+height: 100px;             /* Alto */
+max-width: 100%;           /* Ancho máximo */
+min-height: 50px;          /* Alto mínimo */ -->
+
+    <div class="ejemplo" style="margin: 20px; background: #ddd;">margin: 20px;</div>
+    <div class="ejemplo" style="padding: 20px; background: #ddd;">padding: 20px;</div>
+    <div class="ejemplo" style="width: 200px; height: 50px; background: #ddd;">width + height</div>
+
+    <h2>📏 Bordes</h2>
+    <!-- 
+border: 2px solid black;   /* Grosor, estilo y color */
+border-radius: 10px;       /* Bordes redondeados */
+border-style: dashed;      /* solid, dashed, dotted, double */ -->
+
+    <div class="ejemplo" style="border: 2px solid black;">border: 2px solid black;</div>
+    <div class="ejemplo" style="border-radius: 10px; border: 2px solid black;">border-radius: 10px;</div>
+    <div class="ejemplo" style="border: 2px dashed black;">border: 2px dashed black;</div>
+
+    <h2>🖼️ Imágenes y Elementos</h2>
+    <!-- 
+object-fit: cover;         /* Ajuste de imagen en contenedor */
+object-position: center;   /* Posición de imagen */ -->
+
+    <div class="ejemplo" style="width: 200px; height: 100px; background: url('https://via.placeholder.com/300') center/cover;">object-fit: cover (en imágenes)</div>
+
+    <h2>🖱️ Interactividad</h2>
+    <!-- 
+cursor: pointer;           /* Cambia el puntero */
+transition: 0.3s;          /* Animación suave */ -->
+
+    <div class="ejemplo" style="cursor: pointer;">cursor: pointer;</div>
+    <div class="ejemplo" style="transition: all 0.5s; background: #ddd;">transition: all 0.5s;</div>
+
+    <h2>📍 Posicionamiento</h2>
+    <!-- 
+position: relative;        /* relative, absolute, fixed, sticky */
+top: 10px;
+left: 5px;
+display: block;            /* block, inline, inline-block, flex, grid */
+z-index: 10;               /* Prioridad en capas */ -->
+
+    <div class="ejemplo" style="position: relative; top: 10px; background: #ddd;">position: relative; top: 10px;</div>
+    <div class="ejemplo" style="display: inline-block; background: #ddd;">display: inline-block;</div>
+    <div class="ejemplo" style="z-index: 10; position: relative; background: #ddd;">z-index: 10;</div>
+
+</body>
+</html>

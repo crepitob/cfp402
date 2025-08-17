@@ -1,0 +1,72 @@
+/* Esto es un comentario en CSS */
+.tipo1 {
+    color: rgb(47, 175, 54);
+    /* text-justify: auto; */
+    text-align: center;
+    text-shadow: #ee8d0f;
+    font: #000;
+    font: size 1000px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body {
+    background-color: #e2d0d0;     /* Color de fondo */
+    font-family: Arial, sans-serif;     /* Fuente del texto */
+}
+button {
+    background-color: aqua;
+    border: #000;
+}
+
+#titulo {
+    color: rgb(170, 24, 24);
+}
+
+:hover{
+    /*  al pasar por el objeto cambie */
+    color: #330be7; 
+}
+
+/*  ejemplo de flexbox basico, ubicar el objeto en un lugar especifico */
+
+/* Selector por clase (.) */
+.caja {
+    background-color: rgb(156, 36, 36);
+    padding: 20px; /* Espaciado interno */
+    margin: 10px;  /* Espaciado externo */
+    border: 2px solid #000; /* Borde negro */
+}
+
+/* Selector por ID (#) */
+#titulo-principal {
+    color: blue; /* Color del texto */
+    text-align: center; /* Centrar texto */
+}
+
+/* Cambiar color de todos los enlaces */
+a {
+    color: red;
+    text-decoration: none; /* Quitar subrayado */
+}
+
+/* Estilos para tabla */
+table {
+    background-color: white;
+    border-collapse: collapse; /* Bordes unidos */
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Cambiar color al pasar el mouse */
+a:hover {
+    color: green;
+}
+
+/* Ejemplo de flexbox básico */
+.contenedor {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme */
+}
