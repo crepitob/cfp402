@@ -41,6 +41,7 @@ body {
 /* la a es la variable para todos los links */
 a {
     color:rgb(19, 124, 245);
+    text-decoration: none;
 }
 
 .listas{
@@ -57,9 +58,9 @@ a {
     text-decoration-color: white;
     table-layout: fixed;
     width: 100%;
-    position: relative;
-    top: 200px;
-    left: 0px;
+    /* position: relative; */
+    /* top: 200px; */
+    /* left: 0px; */
     background-color: bisque;
 }
 .titulotabla{
@@ -72,7 +73,7 @@ a {
     color: white;
     position: absolute;
     top: 500px;
-    left: 200px;
+    left: 200px;c vvvvcv   {ñ
 }
 
 .tituloformulario{
